@@ -77,7 +77,6 @@ def main():
 
         encryptString(argv[2])
     
-    # complete group
     elif argv[1].lower() == "-d":
         check(argv, 3)
 
@@ -88,7 +87,6 @@ def main():
 
         encryptString(argv[2])
     
-    # complete group
     elif argv[1].lower() == "--decrypt":
         check(argv, 3)
 
